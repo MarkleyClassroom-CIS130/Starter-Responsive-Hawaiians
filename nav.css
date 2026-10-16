@@ -1,0 +1,50 @@
+.menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+
+
+.menu li {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+
+/* ******* */
+/* Postion the label of the checkbox in the corner */
+.menu-icon {
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* HIDE the navigation on mobile - default - view */
+nav {
+    display: none;
+}
+
+/* Show menu when checkbox is checked */
+#menu-check:checked~nav {
+    display: block;
+}
+
+
+/* Hide the checkbox */
+#menu-check {
+    display: none;
+}
+
+
+
+
+
